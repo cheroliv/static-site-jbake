@@ -14,7 +14,7 @@ Replace cheroliv the data in braces with your values (without the braces).
 git clone https://github.com/{nom d'utilisateur github}/{nom du dépot}.git
 ----
 
-=== Install tools: curl, sdkman, java, gradle & jbake
+=== Install tools: curl, sdkman, java & gradle
 
 [source,bash]
 ----
