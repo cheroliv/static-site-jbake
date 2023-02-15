@@ -1,1 +1,8 @@
-
+*.hprof
+build
+.gradle
+todo.adoc
+.idea
+.settings
+.project
+private
