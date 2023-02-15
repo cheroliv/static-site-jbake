@@ -21,7 +21,7 @@ git clone https://github.com/{nom d'utilisateur github}/{nom du dépot}.git
 sudo snap remove curl;
 sudo apt install curl;
 curl -s "https://get.sdkman.io" | bash;
-sdk i java 17.0.5-tem;
+sdk i java 19.0.2-tem;
 sdk i gradle;
 ----
 
