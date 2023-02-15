@@ -8,7 +8,7 @@ Rename to "username".github.io in order to have a simplified url.
 
 ==== Retrieve the code locally:
 Open a terminal and go to the project's parent folder. +
-Replace username the data in braces with your values (without the braces).
+Replace {username} and {repository_name}, the data in braces with your values (without the braces).
 [source,bash]
 ----
 git clone https://github.com/{username}/{repository_name}.git
@@ -38,7 +38,3 @@ chmod u+x jbake.sh
 ----
 
 === TODO: Deployment to github-pages
-
-
-
-
