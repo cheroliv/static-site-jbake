@@ -3,8 +3,8 @@
 == Create a static site with jbake
 
 === Fork the static-site-jbake repository
-https://github.com/cheroliv/static-site-jbake/fork[forker] +
-Rename to "username".github.io in order to have a simplified url.
+https://github.com/cheroliv/static-site-jbake/fork[Fork] and rename to {your username}.github.io in order to have a simplified url. +
+(without braces!)
 
 ==== Retrieve the code locally:
 Open a terminal and go to the project's parent folder. +
