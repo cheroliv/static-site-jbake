@@ -8,10 +8,10 @@ Rename to "username".github.io in order to have a simplified url.
 
 ==== Retrieve the code locally:
 Open a terminal and go to the project's parent folder. +
-Replace cheroliv the data in braces with your values (without the braces).
+Replace username the data in braces with your values (without the braces).
 [source,bash]
 ----
-git clone https://github.com/{nom d'utilisateur github}/{nom du dépot}.git
+git clone https://github.com/{username}/{repository_name}.git
 ----
 
 === Install tools: curl, sdkman, java & gradle
