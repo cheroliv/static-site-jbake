@@ -1,23 +1,44 @@
-= Static site based on JBake, Gradle and Git
+= Static site jbake
 
-https://docs.gradle.org/current/userguide/userguide.html[Gradle]
-+ https://jbake.org/[JBake]
-+ https://pages.github.com/[Github Pages]
+== Create a static site with jbake
 
-==== To make the script executable.
-```
-chmod u+x jbake.sh
-```
+=== Fork the static-site-jbake repository
+https://github.com/cheroliv/static-site-jbake/fork[forker] +
+Rename to "username".github.io in order to have a simplified url.
 
+==== Retrieve the code locally:
+Open a terminal and go to the project's parent folder. +
+Replace cheroliv the data in braces with your values (without the braces).
+[source,bash]
+----
+git clone https://github.com/{nom d'utilisateur github}/{nom du dépot}.git
+----
 
-== Run in live local mode :
-```
+=== Install tools: curl, sdkman, java, gradle & jbake
+
+[source,bash]
+----
+sudo snap remove curl;
+sudo apt install curl;
+curl -s "https://get.sdkman.io" | bash;
+sdk i java 17.0.5-tem;
+sdk i gradle;
+----
+
+=== Local execution
+[source,bash]
+----
 ./jbake.sh
-```
+----
+Then navigate to http://localhost:8820 in your web browser. +
+If the script does not have sufficient permissions
+[source,bash]
+----
+chmod u+x jbake.sh
+----
+
+=== TODO: Deployment to github-pages
 
 
-== Deploy to Github Pages
 
-```
-./gradlew publishSite
-```
+
